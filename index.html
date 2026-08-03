@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Konya Özel Cenaze Hizmetleri | Cenaze Taşıma ve Defin</title>
+<title>Bellisoy Cenaze Hizmetleri | Konya Cenaze Taşıma ve Defin</title>
 <meta name="description" content="Konya'da cenaze taşıma, şehir içi ve şehirler arası cenaze nakil, defin ve yurt dışı cenaze hizmetleri. 7/24 kesintisiz, Türkiye'nin 81 ilinde hizmetinizdeyiz.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +58,7 @@
 
   /* ---------- Hero ---------- */
   .hero{position:relative;min-height:82vh;display:flex;align-items:center;overflow:hidden;background:var(--pine-deep)}
-  .hero-bg{position:absolute;inset:0;background:url('images/hero.jpg') center/cover no-repeat}
+  .hero-bg{position:absolute;inset:0;background:url('images/hero-side.jpg') center/cover no-repeat}
   .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(20,34,26,.88) 0%,rgba(20,34,26,.66) 45%,rgba(20,34,26,.25) 78%,rgba(20,34,26,.45) 100%)}
   .hero-in{position:relative;z-index:2;padding:110px 24px;max-width:1140px;margin:0 auto;width:100%}
   .hero-kicker{display:inline-flex;align-items:center;gap:9px;color:var(--gold-soft);font-weight:600;font-size:.82rem;letter-spacing:2.4px;text-transform:uppercase;margin-bottom:22px}
@@ -217,13 +217,26 @@
   @media(max-width:720px){
     section{padding:70px 0}
     .topbar-phone{display:none}
-    .wa-top{padding:9px 14px}
+    /* Mobilde kompakt tek satır üst şerit: marka + ikon-WhatsApp + dil tek satıra sığar */
+    .wa-top{width:40px;height:40px;padding:0;justify-content:center;border-radius:50%;flex:none}
+    .wa-top span{display:none}
+    .wa-top svg{width:20px;height:20px}
+    .lang button{padding:6px 10px;font-size:.74rem}
+    .topbar-brand{font-size:.92rem;letter-spacing:.3px;gap:8px}
+    .topbar-in{gap:10px}
+    /* Menü mobilde yapışkan değil: üst şerit görüntüyü kapatmasın diye menü kayarak gider */
+    nav.menu{position:relative;top:auto}
     .nav-links{position:absolute;top:100%;left:0;right:0;background:var(--bg);flex-direction:column;gap:0;padding:10px 20px 16px;border-bottom:1px solid var(--line);display:none;box-shadow:var(--shadow-md)}
     .nav-links.open{display:flex}
     .nav-links a{padding:12px 8px;border-radius:10px}
     .burger{display:block}
     .hero{min-height:auto}
-    .hero-in{padding:76px 24px}
+    .hero-in{padding:64px 24px 72px}
+    /* Mobilde araç fotoğrafına koyu ve düz gradyan: metin her yerde okunur, araç reklam gibi öne çıkmaz */
+    .hero::after{background:linear-gradient(180deg,rgba(20,34,26,.86) 0%,rgba(20,34,26,.72) 45%,rgba(20,34,26,.62) 78%,rgba(20,34,26,.78) 100%)}
+    .hero-bg{background-position:center 62%}
+    /* Hakkımızda rozeti mobilde görselin üzerine binmez, altına alınır */
+    .about-fig .badge{position:static;margin-top:18px;justify-content:center}
     .srv-grid,.gal{grid-template-columns:1fr}
     .why-grid{grid-template-columns:1fr}
     .trust-in{grid-template-columns:1fr;gap:18px}
@@ -240,7 +253,7 @@
   <div class="wrap topbar-in">
     <div class="topbar-brand">
       <span class="dot"></span>
-      <span data-tr="Konya Özel Cenaze Hizmetleri" data-en="Konya Private Funeral Services">Konya Özel Cenaze Hizmetleri</span>
+      <span data-tr="Bellisoy Cenaze Hizmetleri" data-en="Bellisoy Funeral Services">Bellisoy Cenaze Hizmetleri</span>
     </div>
     <div class="topbar-right">
       <a class="topbar-phone" href="tel:+905535977471">
@@ -342,7 +355,7 @@
     <div class="about-txt reveal">
       <span class="kicker" data-tr="Hakkımızda" data-en="About Us">Hakkımızda</span>
       <h2 class="sec" data-tr="Zor gününüzde güvenebileceğiniz bir isim" data-en="A name you can trust in difficult days">Zor gününüzde güvenebileceğiniz bir isim</h2>
-      <p class="lead" data-tr="Konya Özel Cenaze Hizmetleri olarak; şehir içi, Türkiye genelinde şehirler arası ve yurt dışı cenaze hazırlama, taşıma ve defin hizmetlerini kesintisiz olarak sunuyoruz. 7 gün 24 saat, Türkiye'nin 81 ilinde hizmetinizdeyiz." data-en="As Konya Private Funeral Services, we provide uninterrupted funeral preparation, transport and burial services within Konya, across Türkiye and internationally. We serve you 24/7 in all 81 provinces of Türkiye.">Konya Özel Cenaze Hizmetleri olarak; şehir içi, Türkiye genelinde şehirler arası ve yurt dışı cenaze hazırlama, taşıma ve defin hizmetlerini kesintisiz olarak sunuyoruz. 7 gün 24 saat, Türkiye'nin 81 ilinde hizmetinizdeyiz.</p>
+      <p class="lead" data-tr="Bellisoy Cenaze Hizmetleri olarak; şehir içi, Türkiye genelinde şehirler arası ve yurt dışı cenaze hazırlama, taşıma ve defin hizmetlerini kesintisiz olarak sunuyoruz. 7 gün 24 saat, Türkiye'nin 81 ilinde hizmetinizdeyiz." data-en="As Bellisoy Funeral Services, we provide uninterrupted funeral preparation, transport and burial services within Konya, across Türkiye and internationally. We serve you 24/7 in all 81 provinces of Türkiye.">Bellisoy Cenaze Hizmetleri olarak; şehir içi, Türkiye genelinde şehirler arası ve yurt dışı cenaze hazırlama, taşıma ve defin hizmetlerini kesintisiz olarak sunuyoruz. 7 gün 24 saat, Türkiye'nin 81 ilinde hizmetinizdeyiz.</p>
       <ul>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg><span data-tr="Yeni nesil, tam donanımlı ve son model cenaze nakil araçları" data-en="New-generation, fully equipped, latest-model funeral vehicles">Yeni nesil, tam donanımlı ve son model cenaze nakil araçları</span></li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg><span data-tr="Tüm resmi işlemlerde ailelere destek ve rehberlik" data-en="Support and guidance for families in all official procedures">Tüm resmi işlemlerde ailelere destek ve rehberlik</span></li>
@@ -520,7 +533,7 @@
 <footer>
   <div class="wrap">
     <div class="foot-in">
-      <span class="foot-brand" data-tr="Konya Özel Cenaze Hizmetleri" data-en="Konya Private Funeral Services">Konya Özel Cenaze Hizmetleri</span>
+      <span class="foot-brand" data-tr="Bellisoy Cenaze Hizmetleri" data-en="Bellisoy Funeral Services">Bellisoy Cenaze Hizmetleri</span>
       <div class="row">
         <a href="#ana-sayfa" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a>
         <a href="#hizmetler" data-tr="Hizmetlerimiz" data-en="Services">Hizmetlerimiz</a>
@@ -528,7 +541,7 @@
         <a href="#iletisim" data-tr="İletişim" data-en="Contact">İletişim</a>
       </div>
     </div>
-    <p class="foot-line" data-tr="© 2026 Konya Özel Cenaze Hizmetleri — Konya. Tüm hakları saklıdır." data-en="© 2026 Konya Private Funeral Services — Konya. All rights reserved.">© 2026 Konya Özel Cenaze Hizmetleri — Konya. Tüm hakları saklıdır.</p>
+    <p class="foot-line" data-tr="© 2026 Bellisoy Cenaze Hizmetleri — Konya. Tüm hakları saklıdır." data-en="© 2026 Bellisoy Funeral Services — Konya. All rights reserved.">© 2026 Bellisoy Cenaze Hizmetleri — Konya. Tüm hakları saklıdır.</p>
   </div>
 </footer>
 
@@ -571,6 +584,8 @@
   document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
 
   /* ---------- Sticky nav offset düzeltmesi (sticky bar yüksekliği) ---------- */
+  var barH = document.querySelector('.topbar').offsetHeight;
+  if(window.innerWidth > 720){ barH += document.querySelector('nav.menu').offsetHeight; }
   document.querySelectorAll('a[href^="#"]').forEach(function(a){
     a.addEventListener('click', function(ev){
       var id = a.getAttribute('href');
@@ -578,7 +593,7 @@
         var target = document.querySelector(id);
         if(target){
           ev.preventDefault();
-          var y = target.getBoundingClientRect().top + window.scrollY - 92;
+          var y = target.getBoundingClientRect().top + window.scrollY - barH - 8;
           window.scrollTo({top: y, behavior: 'smooth'});
         }
       }
