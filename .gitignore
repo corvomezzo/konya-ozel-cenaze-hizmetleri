@@ -1,0 +1,5 @@
+# Önizleme ve yakalama dosyaları (yayına dahil edilmez)
+onizleme-*.png
+tam-sayfa*.png
+_fullpage.js
+_edge_tmp/
