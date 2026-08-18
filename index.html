@@ -57,10 +57,15 @@
   .burger span{display:block;width:20px;height:2px;background:var(--pine);margin:4px 0;border-radius:2px;transition:.25s}
 
   /* ---------- Hero ---------- */
-  .hero{position:relative;min-height:82vh;display:flex;align-items:center;overflow:hidden;background:var(--pine-deep)}
-  .hero-bg{position:absolute;inset:0;background:url('images/hero-side.jpg') center/cover no-repeat}
-  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(20,34,26,.88) 0%,rgba(20,34,26,.66) 45%,rgba(20,34,26,.25) 78%,rgba(20,34,26,.45) 100%)}
-  .hero-in{position:relative;z-index:2;padding:110px 24px;max-width:1140px;margin:0 auto;width:100%}
+  .hero{position:relative;min-height:78vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(125deg,#182B20 0%,#294738 100%)}
+  .hero::before{content:"";position:absolute;width:620px;height:620px;border-radius:50%;right:-230px;top:-280px;background:radial-gradient(circle,rgba(201,179,135,.2),transparent 67%)}
+  .hero-bg{display:none}
+  .hero-in{position:relative;z-index:2;padding:92px 24px;max-width:1140px;margin:0 auto;width:100%;display:grid;grid-template-columns:minmax(0,1.18fr) minmax(310px,.82fr);gap:70px;align-items:center}
+  .hero-copy{max-width:650px}
+  .hero-brand-panel{min-height:440px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:44px 36px;background:rgba(255,255,255,.055);border:1px solid rgba(243,231,201,.3);border-radius:var(--r-lg);box-shadow:0 24px 60px rgba(4,16,10,.2);position:relative;overflow:hidden}
+  .hero-brand-panel::before{content:"";position:absolute;inset:14px;border:1px solid rgba(201,179,135,.25);border-radius:18px;pointer-events:none}
+  .hero-logo{position:relative;width:min(305px,82%);filter:drop-shadow(0 12px 28px rgba(0,0,0,.2));mix-blend-mode:screen}
+  .hero-brand-panel p{position:relative;color:#D9D2C0;font-size:.86rem;letter-spacing:1.6px;text-transform:uppercase;margin-top:28px}
   .hero-kicker{display:inline-flex;align-items:center;gap:9px;color:var(--gold-soft);font-weight:600;font-size:.82rem;letter-spacing:2.4px;text-transform:uppercase;margin-bottom:22px}
   .hero-kicker::before{content:"";width:34px;height:1px;background:var(--gold-soft)}
   .hero h1{font-family:var(--serif);font-weight:500;color:#FBF8F0;font-size:clamp(1.9rem,4.6vw,3.4rem);line-height:1.28;max-width:19em;margin-bottom:20px}
@@ -154,8 +159,6 @@
   .gal figure:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
   .gal img{aspect-ratio:16/10;object-fit:cover;width:100%;transition:.5s}
   .gal figure:hover img{transform:scale(1.035)}
-  .gal figcaption{padding:14px 18px;font-size:.86rem;color:var(--muted);display:flex;align-items:center;gap:8px}
-  .gal figcaption svg{width:14px;height:14px;color:var(--gold)}
   .veh-note{margin-top:26px;display:flex;gap:12px;align-items:center;color:var(--ink-soft);font-size:.93rem;background:var(--bg-2);border-radius:14px;padding:16px 20px}
   .veh-note svg{width:20px;height:20px;flex:none;color:var(--pine)}
 
@@ -231,10 +234,9 @@
     .nav-links a{padding:12px 8px;border-radius:10px}
     .burger{display:block}
     .hero{min-height:auto}
-    .hero-in{padding:64px 24px 72px}
-    /* Mobilde araç fotoğrafına koyu ve düz gradyan: metin her yerde okunur, araç reklam gibi öne çıkmaz */
-    .hero::after{background:linear-gradient(180deg,rgba(20,34,26,.86) 0%,rgba(20,34,26,.72) 45%,rgba(20,34,26,.62) 78%,rgba(20,34,26,.78) 100%)}
-    .hero-bg{background-position:center 62%}
+    .hero-in{padding:64px 24px 72px;grid-template-columns:1fr;gap:40px}
+    .hero-brand-panel{min-height:270px;padding:32px 24px;order:-1}
+    .hero-logo{width:min(250px,75%)}
     /* Hakkımızda rozeti mobilde görselin üzerine binmez, altına alınır */
     .about-fig .badge{position:static;margin-top:18px;justify-content:center}
     .srv-grid,.gal{grid-template-columns:1fr}
@@ -291,6 +293,7 @@
 <header class="hero" id="ana-sayfa">
   <div class="hero-bg"></div>
   <div class="hero-in">
+    <div class="hero-copy">
     <span class="hero-kicker" data-tr="Konya · Cenaze Taşıma ve Defin Hizmetleri" data-en="Konya · Funeral Transport & Burial Services">Konya · Cenaze Taşıma ve Defin Hizmetleri</span>
     <h1 data-tr="Acılı günlerinizde yükünüzü hafifletebilmek için hizmetinizdeyiz." data-en="We are at your service to ease your burden in your days of sorrow.">Acılı günlerinizde yükünüzü hafifletebilmek için hizmetinizdeyiz.</h1>
     <p class="sub" data-tr="Şehir içi, şehirler arası ve yurt dışı cenaze taşıma ile defin işlemlerinizi <strong>saygı, özen ve güvenle</strong> gerçekleştiriyoruz. <strong>Yeni nesil, tam donanımlı ve son model araçlarımızla</strong>; TSE onaylı, yalıtımlı, sızdırmazlık belgeli ve tescilli, soğutuculu tam frigorik sistemlerle <strong>1. sınıf taşımacılık</strong> sunuyoruz. 7 gün 24 saat, Türkiye'nin 81 ilinde yanınızdayız." data-en="We carry out your city, intercity and international funeral transport and burial processes <strong>with respect, care and trust</strong>. With our <strong>new-generation, fully equipped, latest-model vehicles</strong>, we provide <strong>first-class transport</strong> with TSE-approved, insulated, leak-proof certified and registered, refrigerated full frigorific systems. We are with you 24/7 in all 81 provinces of Türkiye.">Şehir içi, şehirler arası ve yurt dışı cenaze taşıma ile defin işlemlerinizi <strong>saygı, özen ve güvenle</strong> gerçekleştiriyoruz. <strong>Yeni nesil, tam donanımlı ve son model araçlarımızla</strong>; TSE onaylı, yalıtımlı, sızdırmazlık belgeli ve tescilli, soğutuculu tam frigorik sistemlerle <strong>1. sınıf taşımacılık</strong> sunuyoruz. 7 gün 24 saat, Türkiye'nin 81 ilinde yanınızdayız.</p>
@@ -316,6 +319,11 @@
       <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg><span data-tr="81 ile kesintisiz hizmet" data-en="Uninterrupted service in 81 provinces">81 ile kesintisiz hizmet</span></div>
       <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span data-tr="Tecrübeli ve özenli ekip" data-en="Experienced, caring team">Tecrübeli ve özenli ekip</span></div>
     </div>
+    </div>
+    <aside class="hero-brand-panel" aria-label="Bellisoy">
+      <img class="hero-logo" src="images/bellisoy-logo2.jpg" alt="Bellisoy Cenaze Hizmetleri logosu">
+      <p data-tr="Saygı · Özen · Güven" data-en="Respect · Care · Trust">Saygı · Özen · Güven</p>
+    </aside>
   </div>
 </header>
 
@@ -345,7 +353,7 @@
 <section class="about" id="hakkimizda">
   <div class="wrap about-grid">
     <div class="about-fig reveal">
-      <img src="images/sol.jpg" alt="Cenaze nakil aracı" loading="lazy">
+      <img src="images/yan-1.jpeg" alt="Bellisoy cenaze nakil aracı" loading="lazy">
       <div class="badge">
         <div class="badge-col"><b data-tr="7/24" data-en="24/7">7/24</b><span data-tr="Kesintisiz<br>hizmet" data-en="Uninterrupted<br>service">Kesintisiz<br>hizmet</span></div>
         <div class="badge-div"></div>
@@ -448,12 +456,10 @@
     <h2 class="sec reveal" data-tr="Özenle donatılmış cenaze nakil araçlarımız" data-en="Our carefully equipped funeral vehicles">Özenle donatılmış cenaze nakil araçlarımız</h2>
     <p class="lead reveal" data-tr="Yeni nesil, tam donanımlı ve son model araç filomuz; TSE onaylı, yalıtımlı ve soğutuculu tam frigorik sistemlerle her koşulda güvenli taşıma sağlıyor." data-en="Our new-generation, fully equipped, latest-model fleet provides safe transport in all conditions with TSE-approved, insulated and refrigerated full frigorific systems.">Yeni nesil, tam donanımlı ve son model araç filomuz; TSE onaylı, yalıtımlı ve soğutuculu tam frigorik sistemlerle her koşulda güvenli taşıma sağlıyor.</p>
     <div class="gal">
-      <figure class="reveal"><img src="images/arka.jpg" alt="Cenaze nakil aracı arka görünüm" loading="lazy"><figcaption><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg><span data-tr="Arka görünüm" data-en="Rear view">Arka görünüm</span></figcaption></figure>
-      <figure class="reveal"><img src="images/yan1.jpg" alt="Cenaze nakil aracı yan görünüm" loading="lazy"><figcaption><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg><span data-tr="Yan görünüm" data-en="Side view">Yan görünüm</span></figcaption></figure>
-      <figure class="reveal"><img src="images/yan2.jpg" alt="Cenaze nakil aracı yan görünüm" loading="lazy"><figcaption><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg><span data-tr="Yan görünüm" data-en="Side view">Yan görünüm</span></figcaption></figure>
-      <figure class="reveal"><img src="images/yan3.jpg" alt="Cenaze nakil aracı" loading="lazy"><figcaption><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg><span data-tr="Yan görünüm" data-en="Side view">Yan görünüm</span></figcaption></figure>
-      <figure class="reveal"><img src="images/hero.jpg" alt="Cenaze nakil aracı ön görünüm" loading="lazy"><figcaption><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg><span data-tr="Ön görünüm" data-en="Front view">Ön görünüm</span></figcaption></figure>
-      <figure class="reveal"><img src="images/sol.jpg" alt="Cenaze nakil aracı sol açı görünüm" loading="lazy"><figcaption><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/></svg><span data-tr="Sol açı görünüm" data-en="Left angle view">Sol açı görünüm</span></figcaption></figure>
+      <figure class="reveal"><img src="images/rear.jpeg" alt="Bellisoy cenaze nakil aracı arka görünüm" loading="lazy"></figure>
+      <figure class="reveal"><img src="images/yan-1.jpeg" alt="Bellisoy cenaze nakil aracı yan görünüm" loading="lazy"></figure>
+      <figure class="reveal"><img src="images/yan-2.jpeg" alt="Bellisoy cenaze nakil aracı yan görünüm" loading="lazy"></figure>
+      <figure class="reveal"><img src="images/yan-3.jpeg" alt="Bellisoy cenaze nakil aracı yan görünüm" loading="lazy"></figure>
     </div>
     <div class="veh-note reveal">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
