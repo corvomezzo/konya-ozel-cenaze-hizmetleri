@@ -1,6 +1,6 @@
 # Cenaze Defin Organizasyonu
 
-**Cenaze Defin Organizasyonu** — Taşıma, zamanlama ve aile koordinasyonunda özenli destek.
+**Bellisoy Cenaze Hizmetleri — Cenaze Defin Organizasyonu** — Taşıma, zamanlama ve aile koordinasyonunda özenli destek.
 
 ## Defin işlemlerinde aileye hangi konularda destek sağlanır?
 
