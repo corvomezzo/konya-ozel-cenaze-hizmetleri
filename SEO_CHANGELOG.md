@@ -87,4 +87,43 @@
 ---
 
 *Güncelleyen: SEO Agent — Bellisoy Cenaze Hizmetleri*  
-*Faz 2 — P0/P1 düzeltmeleri tamamlandı. Sıradaki: P2 düzeltmeleri.*
+---
+
+## Faz 2 — P2: SSS hiyerarşisi + adres + çapraz bağlantı (2026-08-21)
+
+### Değişiklik 7: SSS sayfasında heading hiyerarşisi düzeltildi
+
+| Alan | Değer |
+|------|-------|
+| **Ne değişti** | 8 `<summary>` etiketi içine `<h3>` eklendi |
+| **Dosyalar** | `sss.html`, `site.css` |
+| **Neden** | SSS sayfasında H1→H2→H3 hiyerarşisi yoktu, `<details>` içindeki sorular heading olarak işaretli değildi |
+| **Risk** | Düşük — CSS'de `summary h3{display:inline;font-size:inherit}` kuralı ile görünüm korundu |
+| **Test** | 8 h3 eklendi, heading hiyerarşisi H1->H2->H3 oldu |
+| **Rollback** | Git'ten geri al |
+
+### Değişiklik 8: İletişim sayfası adres TODO
+
+| Alan | Değer |
+|------|-------|
+| **Ne değişti** | "Detaylı adres ve harita bilgisi için iletişime geçin" cümlesine TODO: BUSINESS VERIFICATION REQUIRED eklendi |
+| **Dosyalar** | `iletisim.html` |
+| **Neden** | Tam adres bilinmiyor, işletmeden doğrulanmalı |
+| **Risk** | Yok |
+| **Test** | TODO metni dosyada mevcut |
+| **Rollback** | Git'ten geri al |
+
+### Değişiklik 9: Hizmet sayfalarına SSS çapraz bağlantısı
+
+| Alan | Değer |
+|------|-------|
+| **Ne değişti** | 6 hizmet sayfasının altına "Sık sorulan sorular sayfası →" bağlantısı eklendi |
+| **Dosyalar** | `cenaze-tasima.html`, `sehirler-arasi-cenaze-nakli.html`, `yurt-disi-cenaze-nakli.html`, `cenaze-defin-organizasyonu.html`, `araclar.html`, `hakkimizda.html` |
+| **Neden** | Kullanıcıyı ilgili FAQ'a yönlendirmek, internal linking'i güçlendirmek |
+| **Risk** | Düşük |
+| **Test** | 6 dosyada da `sss.html` href'i mevcut, broken link yok |
+| **Rollback** | Git'ten geri al |
+
+---
+
+*Faz 2 — P0/P1/P2 düzeltmeleri tamamlandı. Sıradaki: P3 düzeltmeleri.*
