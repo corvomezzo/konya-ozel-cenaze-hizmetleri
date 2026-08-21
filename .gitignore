@@ -3,3 +3,7 @@ onizleme-*.png
 tam-sayfa*.png
 _fullpage.js
 _edge_tmp/
+
+# env files
+.env*
+!.env.example
