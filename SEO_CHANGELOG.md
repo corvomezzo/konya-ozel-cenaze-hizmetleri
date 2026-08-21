@@ -126,4 +126,21 @@
 
 ---
 
-*Faz 2 — P0/P1/P2 düzeltmeleri tamamlandı. Sıradaki: P3 düzeltmeleri.*
+---
+
+## Faz 2 — P3: BreadcrumbList schema (2026-08-21)
+
+### Değişiklik 10: BreadcrumbList JSON-LD eklendi
+
+| Alan | Değer |
+|------|-------|
+| **Ne değişti** | 8 iç sayfaya BreadcrumbList schema eklendi |
+| **Dosyalar** | `hakkimizda.html`, `cenaze-tasima.html`, `sehirler-arasi-cenaze-nakli.html`, `yurt-disi-cenaze-nakli.html`, `cenaze-defin-organizasyonu.html`, `araclar.html`, `sss.html`, `iletisim.html` |
+| **Neden** | Breadcrumb UI mevcut ama schema yoktu. Zengin sonuç fırsatı için BreadcrumbList eklendi |
+| **Risk** | Düşük |
+| **Test** | Tüm JSON-LD valid, tüm breadcrumb item'ları doğru sırada |
+| **Rollback** | Git'ten geri al |
+
+---
+
+*Faz 2 — P0/P1/P2/P3 düzeltmeleri tamamlandı.*
