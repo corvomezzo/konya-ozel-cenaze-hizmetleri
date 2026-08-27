@@ -23,14 +23,12 @@
 .vehicle-specs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:12px 16px;border-top:1px solid var(--line);background:#f9f9f6}
 .vehicle-specs .spec{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}
 .vehicle-specs .spec::before{content:'✓';color:var(--pine);font-weight:700;font-size:11px}
+/* How it works grid */.how-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}/* Mobile CTA buttons */.mobile-cta{display:block;width:100%;padding:16px 20px;margin:8px 0;font-size:17px;border-radius:10px;text-align:center}
+
 @media(max-width:760px){.vehicle-specs{grid-template-columns:1fr}}
 footer{background:#142a20;color:#e6eee7;padding:34px 0;margin-top:40px}footer .links{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0}footer a{font-size:14px}footer small{color:#bdcbbf}@media(max-width:760px){.wrap{width:min(calc(100% - 28px),var(--max))}.top .wrap{min-height:60px}.brand{max-width:220px;font-size:11px}.top-actions{gap:9px;font-size:12px}.nav .wrap{min-height:49px}.nav ul{padding:5px 0}.nav a{font-size:12px;padding:7px 9px}.hero-grid{display:flex;flex-direction:column;padding:0 0 38px;gap:0}.hero-visual{order:-2;width:100%}.hero-visual img{border-radius:0;width:100%;height:auto}.mobile-priority{display:block;order:-1;background:#10281d;width:100%;padding:15px 14px;color:#fff;text-align:center}.mobile-priority strong{display:block;color:#e1c983;font-size:17px}.mobile-priority a{font-size:14px;margin:3px 7px;display:inline-block}.hero-copy{padding-top:28px}.hero h1{font-size:34px}.cards,.split{grid-template-columns:1fr;gap:20px}.section,.content{padding:42px 0}.gallery{grid-template-columns:1fr}.page-hero{padding:40px 0}.page-hero h1{font-size:37px}.vehicle-gallery{grid-template-columns:1fr;gap:14px}.lightbox-overlay img{max-width:95vw;max-height:80vh}.how-grid{grid-template-columns:1fr;gap:24px}.how-grid .vehicle-card{order:2}.how-grid div:not(.vehicle-card){order:1}.mobile-cta{font-size:18px;padding:18px 20px;margin:6px 0}}
 
-/* How it works grid */
-.how-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
 
-/* Mobile CTA buttons */
-.mobile-cta{display:block;width:100%;padding:16px 20px;margin:8px 0;font-size:17px;border-radius:10px;text-align:center}
 
 /* SSE: summary icinde h3 sarmasi */
 details summary h3{display:inline;font-size:inherit;font-weight:inherit;margin:0;font-family:inherit}
