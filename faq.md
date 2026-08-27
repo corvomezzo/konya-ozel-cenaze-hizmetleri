@@ -1,9 +1,9 @@
-# Bellisoy Cenaze Hizmetleri - Sıkça Sorulan Sorular
+# Bellisoy Özel Cenaze Hizmetleri - Sıkça Sorulan Sorular
 
 ## Genel Sorular
 
-### Bellisoy Cenaze Hizmetleri nedir?
-Bellisoy Cenaze Hizmetleri, Konya merkezli olarak Türkiye genelinde 7/24 cenaze taşıma, nakil ve defin organizasyonu hizmeti sunan profesyonel bir kuruluştur. Ailelerin zor zamanlarında düzenli, saygılı ve şeffaf bir hizmet almasını sağlamak amacıyla çalışırız.
+### Bellisoy Özel Cenaze Hizmetleri nedir?
+Bellisoy Özel Cenaze Hizmetleri, Konya merkezli olarak Türkiye genelinde 7/24 cenaze taşıma, nakil ve defin organizasyonu hizmeti sunan profesyonel bir kuruluştur. Ailelerin zor zamanlarında düzenli, saygılı ve şeffaf bir hizmet almasını sağlamak amacıyla çalışırız.
 
 ### Hizmet saatleriniz nedir?
 **7 gün 24 saat** kesintisiz hizmet vermekteyiz. Hafta sonu, tatil günleri ve gece saatleri dahil her zaman bize ulaşabilirsiniz.

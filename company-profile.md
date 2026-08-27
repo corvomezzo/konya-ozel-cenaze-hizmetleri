@@ -1,14 +1,14 @@
-# Bellisoy Cenaze Hizmetleri - Şirket Profili
+# Bellisoy Özel Cenaze Hizmetleri - Şirket Profili
 
 ## Genel Bakış
 
-**Bellisoy Cenaze Hizmetleri**, Konya merkezli olarak Türkiye genelinde cenaze taşıma, nakil ve defin organizasyonu hizmeti sunan profesyonel bir kuruluştur. 7/24 kesintisiz hizmet anlayışıyla, ailelerin zor zamanlarında yanında olarak düzenli ve saygılı bir süreç yönetimi sağlar.
+**Bellisoy Özel Cenaze Hizmetleri**, Konya merkezli olarak Türkiye genelinde cenaze taşıma, nakil ve defin organizasyonu hizmeti sunan profesyonel bir kuruluştur. 7/24 kesintisiz hizmet anlayışıyla, ailelerin zor zamanlarında yanında olarak düzenli ve saygılı bir süreç yönetimi sağlar.
 
 ## Kurumsal Bilgiler
 
 | Bilgi | Detay |
 |-------|-------|
-| **Şirket Adı** | Bellisoy Cenaze Hizmetleri |
+| **Şirket Adı** | Bellisoy Özel Cenaze Hizmetleri |
 | **Merkez** | Konya, Türkiye |
 | **Kuruluş Amacı** | Cenaze taşıma ve organizasyon hizmetleri |
 | **Hizmet Alanı** | Türkiye geneli (81 il) |
@@ -43,7 +43,7 @@ TSE onaylı donanım ve düzenli bakım. Araçlarımız ve ekipmanlarımız en y
 
 ## Hizmet Anlayışımız
 
-Bellisoy Cenaze Hizmetleri olarak, cenaze taşıma sürecinin sadece bir araç ayarlamasından ibaret olmadığını biliyoruz. Bu nedenle:
+Bellisoy Özel Cenaze Hizmetleri olarak, cenaze taşıma sürecinin sadece bir araç ayarlamasından ibaret olmadığını biliyoruz. Bu nedenle:
 
 - **İlk Görüşme**: Aileden yalnızca süreci planlamaya yetecek temel bilgiler alınır
 - **Planlama**: Uygun taşıma ve koordinasyon seçeneği açık biçimde anlatılır

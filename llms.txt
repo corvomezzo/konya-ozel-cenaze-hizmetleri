@@ -1,10 +1,10 @@
-# Bellisoy Cenaze Hizmetleri
+# Bellisoy Özel Cenaze Hizmetleri
 
 > Konya merkezli, Türkiye geneli 7/24 cenaze taşıma, nakil ve defin organizasyonu hizmeti sunan kuruluştur.
 
 ## Temel Bilgiler
 
-- **Şirket Adı**: Bellisoy Cenaze Hizmetleri
+- **Şirket Adı**: Bellisoy Özel Cenaze Hizmetleri
 - **Merkez**: Konya, Türkiye
 - **Hizmet Alanı**: Türkiye geneli (81 il)
 - **Ulaşılabilirlik**: 7 gün 24 saat

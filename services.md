@@ -1,8 +1,8 @@
-# Bellisoy Cenaze Hizmetleri - Hizmet Detayları
+# Bellisoy Özel Cenaze Hizmetleri - Hizmet Detayları
 
 ## Hizmet Kategorileri
 
-Bellisoy Cenaze Hizmetleri olarak sunduğumuz temel hizmetler:
+Bellisoy Özel Cenaze Hizmetleri olarak sunduğumuz temel hizmetler:
 
 1. [Cenaze Taşıma (Konya İçi)](#1-cenaze-taşıma-konya-İçi)
 2. [Şehirler Arası Cenaze Nakli](#2-şehirler-arası-cenaze-nakli)

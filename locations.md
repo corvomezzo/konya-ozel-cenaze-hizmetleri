@@ -1,8 +1,8 @@
-# Bellisoy Cenaze Hizmetleri - Hizmet Bölgeleri
+# Bellisoy Özel Cenaze Hizmetleri - Hizmet Bölgeleri
 
 ## Genel Bilgi
 
-Bellisoy Cenaze Hizmetleri, **Türkiye'nin 81 ilinde** cenaze taşıma ve nakil hizmeti vermektedir. Konya merkezli operasyonumuz, tüm yurt içi ve yurt dışı talepleri koordine etmektedir.
+Bellisoy Özel Cenaze Hizmetleri, **Türkiye'nin 81 ilinde** cenaze taşıma ve nakil hizmeti vermektedir. Konya merkezli operasyonumuz, tüm yurt içi ve yurt dışı talepleri koordine etmektedir.
 
 ## Hizmet Alanı
 
