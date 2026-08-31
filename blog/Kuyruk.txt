@@ -9,10 +9,10 @@ YAPILDI:
 ✅ Bursa
 ✅ Antalya
 ✅ Adana
+✅ Gaziantep
+✅ Konya
 
 SIRADA (alfabetik/nüfus):
-- Gaziantep
-- Konya
 - Şanlıurfa
 - Kocaeli
 - Mersin
