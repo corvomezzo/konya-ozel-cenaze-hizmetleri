@@ -7,10 +7,10 @@ YAPILDI:
 ✅ Ankara
 ✅ İzmir
 ✅ Bursa
+✅ Antalya
+✅ Adana
 
 SIRADA (alfabetik/nüfus):
-- Antalya
-- Adana
 - Gaziantep
 - Konya
 - Şanlıurfa
