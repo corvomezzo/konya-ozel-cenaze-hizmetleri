@@ -7,3 +7,4 @@ _edge_tmp/
 # env files
 .env*
 !.env.example
+oauth_code.txt
