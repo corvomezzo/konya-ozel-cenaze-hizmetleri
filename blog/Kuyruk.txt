@@ -11,6 +11,8 @@ YAPILDI:
 ✅ Adana
 ✅ Gaziantep
 ✅ Konya
+✅ Şanlıurfa
+✅ Kocaeli
 
 SIRADA (alfabetik/nüfus):
 - Şanlıurfa
