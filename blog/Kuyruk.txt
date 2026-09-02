@@ -13,12 +13,10 @@ YAPILDI:
 ✅ Konya
 ✅ Şanlıurfa
 ✅ Kocaeli
+✅ Mersin
+✅ Diyarbakır
 
 SIRADA (alfabetik/nüfus):
-- Şanlıurfa
-- Kocaeli
-- Mersin
-- Diyarbakır
 - Hatay
 - Manisa
 - Kayseri
