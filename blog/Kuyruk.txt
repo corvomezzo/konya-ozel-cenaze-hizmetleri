@@ -15,10 +15,10 @@ YAPILDI:
 ✅ Kocaeli
 ✅ Mersin
 ✅ Diyarbakır
+✅ Hatay
+✅ Manisa
 
 SIRADA (alfabetik/nüfus):
-- Hatay
-- Manisa
 - Kayseri
 - Samsun
 - Sakarya
