@@ -17,6 +17,8 @@ YAPILDI:
 ✅ Diyarbakır
 ✅ Hatay
 ✅ Manisa
+✅ Kayseri
+✅ Samsun
 
 SIRADA (alfabetik/nüfus):
 - Kayseri
