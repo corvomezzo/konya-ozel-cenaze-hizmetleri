@@ -19,6 +19,8 @@ YAPILDI:
 ✅ Manisa
 ✅ Kayseri
 ✅ Samsun
+✅ Sakarya
+✅ Aydın
 
 SIRADA (alfabetik/nüfus):
 - Kayseri
