@@ -1,10 +1,3 @@
-# Önizleme ve yakalama dosyaları (yayına dahil edilmez)
-onizleme-*.png
-tam-sayfa*.png
-_fullpage.js
-_edge_tmp/
-
-# env files
-.env*
-!.env.example
-oauth_code.txt
+__pycache__/
+*.pyc
+weekly_err.log
