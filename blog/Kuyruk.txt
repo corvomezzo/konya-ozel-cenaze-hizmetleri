@@ -3,6 +3,7 @@ Cenaze Blog Şehir Kuyruğu
 URL formatı: blog/konya-{sehir-slug}-cenaze-nakli.html
 
 YAPILDI:
+YAPILDI:
 ✅ İstanbul
 ✅ Ankara
 ✅ İzmir
@@ -21,14 +22,10 @@ YAPILDI:
 ✅ Samsun
 ✅ Sakarya
 ✅ Aydın
+✅ Balıkesir
+✅ Tekirdağ
 
 SIRADA (alfabetik/nüfus):
-- Kayseri
-- Samsun
-- Sakarya
-- Aydın
-- Balıkesir
-- Tekirdağ
 - Trabzon
 - Denizli
 - Ordu
