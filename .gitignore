@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 weekly_err.log
+.env
+oauth_code.txt
+reklam-veri/
